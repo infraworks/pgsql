@@ -1,8 +1,6 @@
-version: '3.9'
-
 services:
   postgres:
-    image: docker.io/postgres:16.1-alpine3.19
+    image: docker.io/postgres:16.2-alpine3.19
     ports:
       - 5432:5432
     volumes:
